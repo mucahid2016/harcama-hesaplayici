@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hoş Geldin, <input type="text" placeholder="Adini Gir.." autofocus></h1>
+        <form action="">
+            <div class="double">
+                <div class="field">
+                    <label for="">Harcama:</label>
+                    <input type="text" id="harcama">
+                </div>
+                <div class="field">
+                    <label for="">Fiyat: </label>
+                    <input id="fiyat" type="number">
+                </div>
+            </div>
+
+            <div class="double" id="sec-double">
+                <div>
+                    <input type="checkbox" id="odeme">
+                    <label for="odeme">Ödendi</label>
+                </div>
+                <button type="submit" id="eklemeBtn" >Ekle</button>
+            </div>
+        </form>
+
+        <div class="toplam-box">Toplam Harcama : <span id="toplam">0 <span>&#8378;</span></span></div>
+
+        <div class="liste">
+
+
+
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
